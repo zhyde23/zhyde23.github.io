@@ -1,0 +1,25 @@
+---
+layout: post
+title:      "Overwhelmed with Data Cleaning?"
+date:       2020-08-30 14:20:20 +0000
+permalink:  overwhelmed_with_data_cleaning
+---
+
+I was the same way starting my first Data Science project. I was given an outline, reviewed what was required for the end result (i.e. Github repo, slideshow, visualizations, and oral presentation of findings) and attended most of my study groups/office hours to make sure I was as prepared as best I could be. It seemed a little overwhelming at first; especially for someone not coming from any technical background. You will be told countless times while you're progressing through the rubric that Google is your best friend, apparently nobody likes asking Jeeves about anything anymore. I thought, "Yeah-I'll probably have to look up a random code I haven't seen yet, but I've gone through all the lessons and feel pretty confident with my comprehension on the readings and understand the majority of the code and what it's saying." I was sure wrong! Completely overwhelmed, I searched for anything and everything; from basic for loops, to how to write up a Seaborn code to have a fancy interactive graph. I must of had ten tabs open at all times, sifting back and forth between my notebook and articles I found online. There's so much to learn using Python and it's always changing and evolving to become and remain the powerhouse of languages for Data Scientists. 
+
+What I've learned throughout this project, is it takes lots and lots of practice to be considered an *amateur* Data Scientist. I made the mistake on trying to clean my dataframes before actually taking a close look at them all and seeing what similarities they have (i.e. column names) and what would be useful information to pull from each one and/or join together to connect missing information one didn't have that another did. The cleaning process takes the majority of your time and effort with each project you commit to. You have to come up with your own questions about information provided or obtained and make an educated and professional presentation to both your peers (I.T.) and non-technical stakeholders (Executives). It is important to have both types of communication for two reasons:
+1. Communication and collaboration with your peers will be your most utilized resource (sorry, Jeeves). They are the ones to ask for technical support throughout your career. This industry is unique in the sense that the majority of resources and information isn't proprietary. It's free for anyone to utilize. The computer science industry, maybe the Data Science industry specifically, encourages open sharing and free access to almost anything that will better someone else.  
+2. Simplifying technical jargon for business executives will speak tremendously about you're understanding of the work you have created for them. Remember, they hired you to help them make educated decisions about their company. They didn't learn anything about how you came to these findings/conclusions. It is your responsibility to make it easy for them to understand the numbers and visualizations to have a clear direction and to have trust and buy-in to your work.
+
+So, when you start your first couple projects and haven't a clue on where to begin; start by breaking down the information that's in-front of you. Manipulation will come towards the last part of cleaning (i.e. filling null values, making new columns, changing values of information[object, int64, etc]). Brainstorm questions about the information. Put yourself in the executives shoes and ask yourself, "If I were running this company, what information or answers do I need in order to progress the business and make an educated decision?"
+
+Once you have begun to understand your dataframes and have a sense on what information you have access to, start to come up with your questions. From there, clean your dataframes by finding null values with `.isna()`. To fill or replace them with a value (usually the mean of the column) you will use `.fillna()`. Filling nulls with the mean will keep as much information available while still having an accurate relation as a whole. If there are duplicates with your dataframe, you'll want to use `.drop_duplicates()`. This function will get rid of the entire column you call to from your dataframe. Use this sparingly though, removing multiple parts of your dataframe will minimize the credibility of what you are trying to represent. I could go on forever about the various types of functions that are available to us within Jupyter Notebook, but I'll leave that up to your searches and curiosities.
+
+This project has been a very humbling and eye-opening experience for me. I have a new respect for not just Data Scientists, but anyone within the computer science industry! Below, I have added links to some resources I found useful throughout my project and hope they find some use with yours as well!
+
+Thank you for coming to my Ted Talk.  -Zach
+
+* https://plotly.com/
+* https://seaborn.pydata.org/index.html
+* https://stackoverflow.com/ (no, you don't need a subscription to search questions)
+* https://matplotlib.org/
