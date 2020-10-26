@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Challenges within Linear Regression Models"
-date:       2020-10-26 02:47:48 +0000
+date:       2020-10-25 22:47:49 -0400
 permalink:  challenges_within_linear_regression_models
 ---
 
