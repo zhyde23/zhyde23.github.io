@@ -7,13 +7,13 @@ permalink:  challenges_within_linear_regression_models
 
 ![](https://miro.medium.com/max/1376/1*G1Y_-X14q2xMVHlUuaUUdA.png)
 
-For those of you that are beginning your first projects on Linear Regression, you may have more questions than answeres like I did at this point. As I complete my first regression model, I want to walk you through what I found helpful and what I struggled with and how I was able to wrap my head around these blockers.
+For those of you that are beginning your first projects on Linear Regression, you may have more questions than answers like I did at this point. As I complete my first regression model, I want to walk you through the initial set up, what I found helpful and what I struggled with. Hopefully this will give you a solid foundation as you begin your first project!
 
-You'll here time and time again that the internet search is your best friend. It is 100% accurate because the tech industry is constantly evolving/updating. I believe I mentioned this in one of my later posts; data science is unique with the mentality that everyone within the industry is out to help one another and not necessarily compete against each other. What I mean is, as you evolve from beginner to tenured analyst/scientist, you will have many questions about how to type out certain code or run into a situation that you have no idea how to solve. The internet is the most utilized tool at your disposal to most of your questions! Searching for a solution to your problem 9/10 times will lead you to your solution. The mentality to this? Data Science is 'as strong as the weakest link'. The more we know and collaborate together, the stronger and more accurate we can all get as the data world progresses and reaches higher milestones.
+You'll here time and time again that the internet search is your best friend. It is 100% accurate because the tech industry is constantly evolving/updating. I believe I mentioned this in one of my later posts; Data Science is unique with the mentality that everyone within the industry is out to help one another and not necessarily compete against each other. What I mean is, as you evolve from beginner to tenured analyst/scientist, you will have many questions about how to type out certain code or run into a situation that you have no idea how to solve. The internet is the most utilized tool at your disposal to most of your questions! Searching for a solution to your problem 9/10 times will lead you to your solution. The mentality to this? Data Science is 'as strong as the weakest link'. The more we know and collaborate together, the stronger and more accurate we can all get as the data world progresses and reaches higher milestones.
 
 But enough about that. Here's what you all came here for; to understand how to go about starting your project!
 
-First off, you'll want to import all necessary tools before you start running your formulas and manipulating your data set. As a headstart, I've included most of my utilized tools with some graphing for this project below.
+First off, you'll want to import the necessary tools before you start running your formulas and manipulating your data set. As a headstart, I've included most of my utilized tools with some graphing for this project below.
 
 ```
 import pandas as pd
